@@ -9,6 +9,7 @@ namespace Clean.Architecture.Core.Entities
         public string Title { get; set; } = string.Empty;
         public string Description { get; set; }
         public bool IsDone { get; private set; }
+        public int x;
 
         public void MarkComplete()
         {
